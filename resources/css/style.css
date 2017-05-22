@@ -1,0 +1,156 @@
+
+body {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+	opacity: 0.9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: seashell;
+	text-decoration: underline;
+}
+
+/* header content */
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+    z-index: 20;
+	top: 0;
+	left: 0;
+    height: 69px;
+    width: 100%;
+    background-color: black;
+    border-bottom: solid seashell 1px;
+}
+
+
+.logo {
+	height: 50px;
+	margin-left: 10px;
+}
+
+nav {
+	margin-right: 10px;
+}
+
+nav li{
+	display: inline-block;
+	padding: 0 10px;
+}
+
+/* mission content */
+#Mission {
+	display: flex;
+	align-items: center;
+	width: 1200px;
+    min-height: 700px;
+    margin: 0 auto;
+    border-top: 70px solid black;
+    background-image: url("../images/img-mission-background.jpg");
+}
+
+#Mission hgroup {
+  z-index: 10;
+  width: 100%;
+  background-color: black;
+}
+
+/* featured tea content */
+
+#FeaturedTea{
+	display: flex;
+    width: 1200px;
+	min-height: 500px;
+  	margin: 0;
+    padding-top: 70px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+.menuitem {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+}
+
+figure {
+	margin: 0 15px;
+} 
+
+
+figure img {
+	width: 300px;
+	height: 200px;
+}
+
+h4{
+	margin: 10px 0 30px 0;
+	font-weight: bold;
+}
+
+/* location content */
+
+
+
+#Locations{
+	display: flex;
+    width: 1200px;
+    min-height: 500px;
+    background: url("../images/img-locations-background.jpg") no-repeat;
+    padding: 70px 0 0 0;
+    margin: 40px 0 0 0;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+#Locations h2 {
+    margin: 0;
+    padding: 45px 0 15px 0;
+	background-color: transparent;
+
+}
+
+.gallery {
+	 display: flex;
+	 flex-flow: row wrap;
+	 justify-content: center;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: 275px;
+  margin: 0 20px;
+  background-color: black;
+  opacity: 1;
+}
+
+address {
+  height: 200px;
+  font-style: normal;
+
+}
+
+/* footer */
+footer {
+    padding: 70px 0 0 0;
+    width: 100%;
+    min-width: 1200px;
+    max-height: 200px;
+}
+
+
+
+footer h5{
+	text-align: left;
+}
